@@ -24,21 +24,26 @@ Our analysis identified a **Critical Window of Stability** in the diffusion proc
 * **The $t=800$ Spike:** All sequences show a decision spike at $t=800$; however, failures exhibit sustained drift long after this window, especially in cluttered scenes.
 * **Complexity Paradox:** Cluttered backgrounds compete for the "attention budget," leading to higher entropy and "wandering" text centroids.
 
-## 📁 Repository Structure
 
-```bash
-├── src/
-│   ├── instrumentation/      # U-Net hooks for entropy and centroid extraction
-│   ├── generation/           # SDXL inference engine and factorial suite
-│   ├── evaluation/           # OCR scoring (NED, CER) and failure classification
-│   └── mitigation/           # Proposed OCR-guided fine-tuning objective
-├── notebooks/
-│   ├── phase1_encoding.ipynb # Tokenization fragmentation and separability tests
-│   └── phase2_attention.ipynb # Visualizing drift and entropy vs. timestep
-├── data/
-│   └── prompt_suite.json     # The 15 x 3 x 4 factorial design definitions
-└── README.md
-```
+## Samples of generated images by the baseline SDXL: 
+Watermelon - simple, verbatim:
+<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 10 52 AM" src="https://github.com/user-attachments/assets/f5b792de-0571-4a14-8c03-91015977dfda" />
+
+Watermelon - simple, quoted:
+<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 11 36 AM" src="https://github.com/user-attachments/assets/c6bfc8c5-69b5-4a8c-ada0-51e6c4bce8c3" />
+
+Watermelon - simple, letterspaced
+<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 12 05 AM" src="https://github.com/user-attachments/assets/3abcecc2-db01-4a79-8e40-5273d9fe605a" />
+
+Watermelon - cluttered, verbatim
+<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 12 22 AM" src="https://github.com/user-attachments/assets/823136cd-18ed-4af3-8ece-e5890e7e06ef" />
+
+Watermelon - cluttered, letterspaced
+<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 12 44 AM" src="https://github.com/user-attachments/assets/feb0b474-4f1c-4dac-b96f-c8f42b177438" />
+
+Watermelon - blank, unquoted
+<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 13 11 AM" src="https://github.com/user-attachments/assets/2d3ebca4-c5b8-4ac3-a43d-e91894edb575" />
+
 
 ## 🎓 Team
 Nilay, Riddhi, Nicole 
