@@ -29,9 +29,6 @@ Our analysis identified a **Critical Window of Stability** in the diffusion proc
 Watermelon - simple, verbatim:
 <img width="789" height="791" alt="Screenshot 2026-04-08 at 12 10 52 AM" src="https://github.com/user-attachments/assets/f5b792de-0571-4a14-8c03-91015977dfda" />
 
-Watermelon - simple, quoted:
-<img width="789" height="791" alt="Screenshot 2026-04-08 at 12 11 36 AM" src="https://github.com/user-attachments/assets/c6bfc8c5-69b5-4a8c-ada0-51e6c4bce8c3" />
-
 Watermelon - simple, letterspaced
 <img width="789" height="791" alt="Screenshot 2026-04-08 at 12 12 05 AM" src="https://github.com/user-attachments/assets/3abcecc2-db01-4a79-8e40-5273d9fe605a" />
 
@@ -43,6 +40,16 @@ Watermelon - cluttered, letterspaced
 
 Watermelon - blank, unquoted
 <img width="789" height="791" alt="Screenshot 2026-04-08 at 12 13 11 AM" src="https://github.com/user-attachments/assets/2d3ebca4-c5b8-4ac3-a43d-e91894edb575" />
+
+## Plots from findings through experiments 1 and 2: 
+Experiment 1: 
+<img width="1050" height="335" alt="Screenshot 2026-04-08 at 12 17 17 AM" src="https://github.com/user-attachments/assets/1201de39-11a8-4185-a45b-f62ea26dfaee" />
+
+
+Experiment 2:
+<img width="1289" height="490" alt="centroid-temporal-drift" src="https://github.com/user-attachments/assets/dbec4a92-32f1-47b7-b46a-1496ac69f465" />
+
+
 
 
 ## 🎓 Team
